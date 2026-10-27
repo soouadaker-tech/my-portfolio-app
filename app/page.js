@@ -18,9 +18,14 @@ export default function Home() {
           <p className="mt-5 font-display text-xl font-medium text-muted md:text-2xl">{p.role}</p>
           <p className="mt-7 max-w-[62ch] text-lg">{p.lead}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href={`mailto:${p.email}`} className="rounded-full border-2 border-ink bg-ink px-6 py-3 font-semibold text-bg transition hover:border-accent hover:bg-accent hover:text-white">
-              Me contacter
-            </a>
+          <a
+            href={`https://mail.google.com/mail/?view=cm&fo=1&to=${p.email}&su=${encodeURIComponent("Prise de contact depuis votre portfolio")}`}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full border-2 border-ink bg-ink px-6 py-3 font-semibold text-bg transition hover:border-accent hover:bg-accent hover:text-white"
+          >
+            Me contacter
+          </a>
             <a href="#experience" className="rounded-full border-2 border-ink px-6 py-3 font-semibold transition hover:border-accent hover:bg-accent hover:text-white">
               Voir mon parcours
             </a>
