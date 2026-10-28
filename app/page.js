@@ -70,8 +70,9 @@ export default function Home() {
 
         <Section id="contact" title="Travaillons ensemble">
           <p className="mb-5 max-w-[56ch]">
-            Je cherche un stage ou un premier poste en développement web full stack, Big Data ou Cloud. Écrivez-moi, je réponds vite.
+            Je suis à la recherche d’une nouvelle opportunité professionnelle en développement web full stack, PHP/Symfony, Big Data ou Cloud. N’hésitez pas à me contacter, je vous répondrai rapidement.
           </p>
+            
           <ul className="grid gap-2.5 font-semibold">
             <li><a className="border-b-2 border-accent" href={`mailto:${p.email}`}>{p.email}</a></li>
             <li><a className="border-b-2 border-accent" href={`tel:${p.phoneHref}`}>{p.phone}</a></li>
