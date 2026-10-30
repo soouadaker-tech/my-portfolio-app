@@ -18,7 +18,7 @@ export const profile = {
     {
       when: "Mai 2024 – aujourd’hui",
       title: "Développeur informatique",
-      where: "Imperium Media",
+      where: "Imperium Solutions",
       items: [
         "Création de maquettes web avec HTML, CSS, Bootstrap et JavaScript.",
         "Conception d’interfaces réactives pour tous les appareils.",
