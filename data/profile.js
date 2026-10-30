@@ -42,8 +42,8 @@ export const profile = {
     {
       title: "Application web de gestion de tickets Helpdesk",
       text: "Une application web qui permet de créer, d’affecter, de suivre et de résoudre des tickets de support. Projet de fin d’études réalisé à l’ENSET Mohammedia (juin 2026).",
-      tags: ["Symfony", "React", "Next.js", "MySQL"],
-      link: "", // ex : "https://github.com/ton-compte/helpdesk"
+      tags: ["React", "Node.js", "MySQL"],
+      link: "https://github.com/soouadaker-tech/helpdesk-pfe", 
     },
   ],
   skills: [
